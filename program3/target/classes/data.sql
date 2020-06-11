@@ -1,0 +1,11 @@
+CREATE TABLE RATING (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  first_name VARCHAR(250) NOT NULL,
+ CUST_AVG INT NOT NULL,
+  TOT_AVG INT DEFAULT NULL
+);
+ 
+INSERT INTO RATING (first_name, CUST_AVG, TOT_AVG) VALUES
+  ('Aliko', 4,5),
+  ('Bill', 4,3),
+  ('Folrunsho',4,5);
